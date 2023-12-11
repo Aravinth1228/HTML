@@ -1,0 +1,13 @@
+table
+{
+border-collapse: collapse;
+
+}
+table tr:nth-of-type(even
+){
+    background-color: rgb(74, 170, 175);
+}
+table td:nth-of-type(even)   
+{
+    background-color: rgb(176, 26, 161);
+}

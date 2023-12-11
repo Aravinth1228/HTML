@@ -1,0 +1,55 @@
+.table{
+    display: table;
+    width: 600px;
+    border: 1px solid rgb(120, 86, 154);
+    margin-top: 100px;
+    margin-left: 100px;
+    
+
+}
+.row{
+    display: table-row;
+    border: 1px solid orange;
+}
+.col{
+    display: table-cell;
+    border: 1px solid orange;
+    padding: 10px 20px;
+}
+.heading{
+
+    font-weight: bold;
+    text-align: center;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    display: table-header-group;}
+    .footer{
+        display: table-footer-group;
+        font-weight: bold;
+        background-color: crimson;
+    }
+    .caption{
+        display: table-caption;
+        font-weight: bolder;
+        text-align: center;
+        font-size: 50px;
+        color: chartreuse;
+     border: 1px solid greenyellow;
+    }
+    .col-group{
+        display: table-column-group;
+    }
+    .tbl-col{
+        display: table-column;
+    }
+    .col1{
+        width: 50px;
+        background-color: rgb(228, 111, 111);
+    }
+    .col2{
+        width: 30px;
+        background-color: rgb(49, 98, 177);
+    }.col3{
+        width: 50px;
+        background-color: rgb(202, 65, 161);
+    }
